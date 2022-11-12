@@ -33,7 +33,23 @@ http://localhost:3000/api/v2/seed
 
 ```
 
+
+
 # stack usado
 * MongoDB
 * Nest
+
+# Production Build
+1. crear el archivo ``` .env.prod ```
+2. llenar las variables de entorno prod
+3. Crear la nueva imagen
+
+
+# Notas
+Heroku redeploy sin cambios
+``` 
+git commit --allow-empty -m "Trigger Heroku"
+git push heroku master/main
+
+```
 
